@@ -26,7 +26,6 @@ We'll be designing an application that can identify if a piece of text talking a
 * Make decision if cost/compute expense tradeoff is worth it
 
 ## Bonus
-* Con
 
 # Coding environment
 We'll be using Gemma with Ollama locally and a python environment.
