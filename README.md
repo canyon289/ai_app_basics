@@ -11,7 +11,7 @@ We'll be designing an application that can identify if a piece of text talking a
 * If unsure indicate so
 
 
-## Evalulation
+## Evaluation
 * Define eval metrics for quality
 * Build a basic eval loop
 
