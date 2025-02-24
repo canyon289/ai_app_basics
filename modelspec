@@ -1,2 +1,2 @@
 FROM gemma:2b
-MESSAGE system speak in pirate
+MESSAGE system 
