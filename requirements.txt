@@ -1,2 +1,4 @@
 numpy
 ollama
+gradio
+jupyter
