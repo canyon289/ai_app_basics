@@ -28,12 +28,16 @@ We'll be designing an application that can identify if a piece of text talking a
 We'll be using Gemma with Ollama locally and a python environment.
 If you are unable to run things locally, parts of this tutorial can be performed with Gemini API and AIStudio.
 
+## Ollama setup
+**This is most critical**
+This will take the longest amount of time and take a lot of internet bandwidth. 
+
 To setup this you'll need to
 1. Download Ollama https://ollama.com/
 2. Run the following commands to pull our gemma models
    * `ollama pull gemma:2b`
-   * `ollama run gemma2:2b-instruct-fp16`
-   * `ollama run gemma2:2b-instruct-q2_K`
+   * `ollama pull gemma2:2b-instruct-fp16`
+   * `ollama pull gemma2:2b-instruct-q2_K`
 
 **Note**: This is going to take up about 10 gigs of space on your computer. Depending on your hardware some of these models may not even load. Consider this part of this tutorial. AI models, while becoming easier and cheaper to use, still require you to grapple with the model, if not you someone else. 
 
