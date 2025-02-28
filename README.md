@@ -41,4 +41,7 @@ To setup this you'll need to
 
 **Note**: This is going to take up about 10 gigs of space on your computer. Depending on your hardware some of these models may not even load. Consider this part of this tutorial. AI models, while becoming easier and cheaper to use, still require you to grapple with the model, if not you someone else. 
 
-If the model doesn't load we included the finished notebooks in the Secrets repo. Follow along to learn what's going on and still get the takeaways!
+## Python
+**Note**: This tutorial must be run locally. It will not work in colab or any other cloud environment due to the ollama dependency.
+
+For python use your package manager of choice and install the packages in `requirements.txt`
