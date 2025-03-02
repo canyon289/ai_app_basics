@@ -2,3 +2,4 @@ numpy
 ollama
 gradio
 jupyter
+datasette
