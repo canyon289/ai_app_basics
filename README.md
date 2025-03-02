@@ -4,6 +4,22 @@ This repo contains everything you need for a hands-on workshop where we’ll bui
 
 One of the great things about LLMs isn’t just their generative ability, but their **in-context learning** and ability to classify data without needing a dedicated training phase. Usually, doing this with large models can be **expensive** and **slow**, but thanks to **Gemma 2B** and **Ollama**, we’ll run everything **locally**, making it **fast, cost-free, and fun**.
 
+## What This Is (and What It Isn’t)
+
+This workshop, *Building AI for Real-World Use Cases: From Basics to Production*, is designed to take you from understanding the fundamentals of AI-powered systems to building, evaluating, and optimizing them for real-world use.
+
+It was inspired by a talk given by **Ravin Kumar**, *Building Cars and Building AI Apps, Two Technologies A Hundred Years Apart*, in [Hugo's **Building LLM Powered Applications for Data Scientists and Software Engineers** course](https://maven.com/s/course/d56067f338). In that talk, Ravin shared insights from his work at Google on **Notebook LM** and **Mariner**. [The slides from his talk are here](https://docs.google.com/presentation/d/e/2PACX-1vQanphgWMnZb2DwQsLJUxUVh1XbU1gv162lQyc2BUbom2no5TThljEH6-YWLc9APfxApZYAJkwMDu4K/pub?start=false&loop=false&delayms=60000#slide=id.p).
+
+### ✅ **What This Is**
+- A **practical, hands-on** approach to building **LLM-powered classification systems** that run **locally**.
+- A **workflow-focused** deep dive into **prompting, evaluation, and optimization**—not just model selection.
+- A chance to **iteratively build** and refine an AI system using **Gemma 2B + Ollama** while learning **how real-world AI applications are developed**.
+
+### ❌ **What This Isn’t**
+- **A deep dive into every LLM tool or framework**—we focus on workflow, not exhaustive tool coverage.
+- **A step-by-step AI recipe book**—you’ll experiment, iterate, and debug instead of following rigid instructions.
+- **A guide to large-scale production deployment**—this workshop is about learning the fundamentals, but scaling beyond local models is a separate challenge.
+
 ## 🛠 What You’ll Be Doing
 
 This workshop is structured into four progressive sections. In each section, we’ll be working through **Jupyter notebooks** (found in the `notebooks/` directory) and, in some cases, executing scripts (stored in `apps/`).
