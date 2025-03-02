@@ -1,7 +1,7 @@
 import gradio as gr
 import ollama
 
-model = 'gemma:2b'
+model = 'gemma2:2b'
 
 def chat_with_model(prompt):
     response = ollama.chat(model=model, messages=[{'role': 'user', 'content': prompt}])
@@ -12,7 +12,7 @@ iface = gr.Interface(
     inputs=gr.Textbox(lines=2, placeholder="Type your message here..."),
     outputs="text",
     title="Chat with Gemma",
-    description="Enter a message and get a response from the Gemma 2B model.",
+    description="Enter a message and get a response from the Gemma2 2B model.",
 )
 
 iface.launch()

@@ -6,7 +6,7 @@ One of the great things about LLMs isn’t just their generative ability, but th
 
 ## 🛠 What You’ll Be Doing
 
-This workshop is structured into four progressive sections. In each section, we’ll be working through **Jupyter notebooks** (found in the `notebooks/` directory) and, in some cases, executing scripts (stored in `app/`).
+This workshop is structured into four progressive sections. In each section, we’ll be working through **Jupyter notebooks** (found in the `notebooks/` directory) and, in some cases, executing scripts (stored in `apps/`).
 
 ### **1. Building the MVP AI System**
 We’ll start by building a **zero-shot classification system** that predicts whether a sports team is from the **US or Australia**.
@@ -45,7 +45,7 @@ Download and install Ollama from [https://ollama.com/](https://ollama.com/).
 Once installed, run the following commands in your terminal to download the models:
 
 ```shell
-ollama pull gemma:2b
+ollama pull gemma2:2b
 ollama pull gemma2:2b-instruct-fp16
 ollama pull gemma2:2b-instruct-q2_K
 ```
