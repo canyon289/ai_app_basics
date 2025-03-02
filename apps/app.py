@@ -25,7 +25,7 @@ setup_database()  # Ensure the DB is set up before running the app
 
 def chat_with_model(prompt):
     """Send user input to Ollama, get response, and log to SQLite."""
-    response = ollama.chat(model="gemma:2b", messages=[{"role": "user", "content": prompt}])["message"]["content"]
+    response = ollama.chat(model="gemma2:2b", messages=[{"role": "user", "content": prompt}])["message"]["content"]
     
     # Log the interaction to SQLite
     conn = sqlite3.connect(DB_PATH)
@@ -42,7 +42,7 @@ iface = gr.Interface(
     inputs=gr.Textbox(lines=2, placeholder="Type your message here..."),
     outputs="text",
     title="Chat with Gemma",
-    description="Enter a message and get a response from the Gemma 2B model. Your chats are logged in SQLite.",
+    description="Enter a message and get a response from the Gemma2 2B model. Your chats are logged in SQLite.",
 )
 
 iface.launch()
